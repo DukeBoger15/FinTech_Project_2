@@ -1,4 +1,4 @@
-<h1>Machine Learning Trading Bot Project</h1>
+<h1>Machine Learning Algorithmic Trading Project</h1>
 This repo contains the code for my FinTech Bootcamp Project 2
 <h1>Project Description</h1>
 <li>I am assuming the role of a market analyst tasked with researching algorithmic trading models to assist with our firm day trading and eliminating errors in trade order entry. We have used a manual trading method for all of our trading throughout the firms history and we want to explore ways to create chances for our clients to take advantage.</li>
@@ -12,5 +12,8 @@ This repo contains the code for my FinTech Bootcamp Project 2
 <img width="527" alt="image" src="https://user-images.githubusercontent.com/113187706/213579155-432e1148-5f56-4dab-aa0f-069767f6a9e6.png">
 <li>From here select the fintechproject2.ipynb file. To run the code, please use the runtime tab at the top of the notebook and select run all cells.</li>
 <img width="331" alt="image" src="https://user-images.githubusercontent.com/113187706/213579763-8344dad8-a0e2-4731-8ffc-63bb30371741.png">
-<h3> Results From Code</h3>
-<li
+<h3> Results From Machine Learning Trading Algorithm</h3>
+<li> For the training period of this code I used a Date Offset function. I used 180 months for this training period, which is the equivalent of 15 years of training data. The yfinance library was able to pull data for Berkshire Hathaway, which is the company/stock I researched for the project beginning in May of 1996 and running through market close of January 19, 2023, which is today. Using predictions in the code and the training signals, we are able to graph the returns from the data versus the trading strategy returns from the algorithmm. Looking at the graph provided below, the calculated returns show a high level of volatility and sharp increases and decreases in the returns. This can be the result of the trading method that was used. The actual returns protrays the returns that have been calculated based on the trading that has took place in the stock. Therefore indicators could have been missed or research could have been overlooked resulting in ill advised trading times. Now if you shift your focus to the trading algorithm returns in the graph below, the line is much more steady and shows less volatility. This is the result of the trading model watching for the signals and trading indicators telling the model when to place the entry and exit trades. Therefore the returns might not be as high, but the potential for a large swing in returns has been minimized by the trading model. </li>
+<img width="234" alt="image" src="https://user-images.githubusercontent.com/113187706/213580686-c1ab7f2b-7421-4c2c-ad00-38cc854090a7.png">
+<h5>Contributors</h5>
+<li>John Duke Boger</li>
